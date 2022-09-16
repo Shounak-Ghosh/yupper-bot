@@ -5,7 +5,7 @@ from json import dumps
 from time import sleep
 from random import random
 
-file = open("info.txt")
+file = open("/Users/shounakg/Documents/GitHub/yupper-bot/info.txt")
 text = file.read().splitlines()
 
 if len(sys.argv) > 1 and sys.argv[1] == "--setall" and input("Configure bot? (y/n)") == "y":
